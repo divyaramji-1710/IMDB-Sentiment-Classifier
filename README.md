@@ -90,9 +90,9 @@ Expected columns:
 
 ## Project Progress
 
-### Part 1 — Load and Explore (Statistics)
+### Part 1 â€” Load and Explore (Statistics)
 
-#### Step 1 — Dataset statistics
+#### Step 1 â€” Dataset statistics
 
 - Load IMDB Dataset.csv
 - Report row count
@@ -100,7 +100,7 @@ Expected columns:
 - Report label percentages
 - Calculate majority-class baseline
 
-#### Step 2 — Word-count statistics
+#### Step 2 â€” Word-count statistics
 
 - Add word_count column
 - Calculate mean word count
@@ -109,13 +109,25 @@ Expected columns:
 - Calculate variance
 - Calculate standard deviation
 
-#### Step 3 — Distribution analysis
+#### Step 3 â€” Distribution analysis
 
 - Compare mean and median word count
 - Calculate skewness
 - Determine the direction of skewness
 - Explain what skewness implies
 - Determine which statistic is more appropriate to quote
+
+#### Step 4 â€” Mean Word Count by Sentiment
+
+- Calculate mean word count separately for positive and negative reviews
+- Compare the average review length between sentiment classes
+- Calculate the difference between positive and negative mean word counts
+
+#### Step 5 â€” Duplicate Row Check
+
+- Check for duplicate rows using `duplicated().sum()`
+- Report the number of duplicate rows found
+- Verify whether duplicate records are present in the dataset
 
 ---
 
