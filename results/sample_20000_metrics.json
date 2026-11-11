@@ -1,0 +1,210 @@
+{
+  "experiment": "sample_20000",
+  "train_rows": 16000,
+  "test_rows": 4000,
+  "accuracy": 0.88275,
+  "assignment_baseline": 0.5,
+  "confusion_matrix": [
+    [
+      1760,
+      233
+    ],
+    [
+      236,
+      1771
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.8817635270541082,
+      "recall": 0.8830908178625189,
+      "f1-score": 0.8824266733517172,
+      "support": 1993.0
+    },
+    "positive": {
+      "precision": 0.8837325349301397,
+      "recall": 0.8824115595416044,
+      "f1-score": 0.8830715532286213,
+      "support": 2007.0
+    },
+    "accuracy": 0.88275,
+    "macro avg": {
+      "precision": 0.882748030992124,
+      "recall": 0.8827511887020616,
+      "f1-score": 0.8827491132901693,
+      "support": 4000.0
+    },
+    "weighted avg": {
+      "precision": 0.8827514767559071,
+      "recall": 0.88275,
+      "f1-score": 0.8827502418299539,
+      "support": 4000.0
+    }
+  },
+  "top_terms": {
+    "positive": [
+      {
+        "term": "highly recommended",
+        "positive_minus_negative_log_probability": 2.2187031048631347
+      },
+      {
+        "term": "underrated",
+        "positive_minus_negative_log_probability": 2.217497413652737
+      },
+      {
+        "term": "highly recommend",
+        "positive_minus_negative_log_probability": 2.186460378216548
+      },
+      {
+        "term": "felix",
+        "positive_minus_negative_log_probability": 2.149143235610387
+      },
+      {
+        "term": "heartbreaking",
+        "positive_minus_negative_log_probability": 2.1411635358475323
+      },
+      {
+        "term": "outstanding performance",
+        "positive_minus_negative_log_probability": 2.135485046870441
+      },
+      {
+        "term": "well worth",
+        "positive_minus_negative_log_probability": 2.1087485560006325
+      },
+      {
+        "term": "excellent performance",
+        "positive_minus_negative_log_probability": 2.1008581344138655
+      },
+      {
+        "term": "also great",
+        "positive_minus_negative_log_probability": 2.02802788656507
+      },
+      {
+        "term": "must see",
+        "positive_minus_negative_log_probability": 2.004342843000183
+      },
+      {
+        "term": "refreshing",
+        "positive_minus_negative_log_probability": 2.0031291130105195
+      },
+      {
+        "term": "cast excellent",
+        "positive_minus_negative_log_probability": 1.9971392937647021
+      },
+      {
+        "term": "flawless",
+        "positive_minus_negative_log_probability": 1.9369975070841239
+      },
+      {
+        "term": "wonderful film",
+        "positive_minus_negative_log_probability": 1.931831127623358
+      },
+      {
+        "term": "eisenstein",
+        "positive_minus_negative_log_probability": 1.9314964967491033
+      },
+      {
+        "term": "miyazaki",
+        "positive_minus_negative_log_probability": 1.9109934932070782
+      },
+      {
+        "term": "fido",
+        "positive_minus_negative_log_probability": 1.910484322292353
+      },
+      {
+        "term": "matthau",
+        "positive_minus_negative_log_probability": 1.90216665236178
+      },
+      {
+        "term": "definitely worth",
+        "positive_minus_negative_log_probability": 1.884152917117703
+      },
+      {
+        "term": "perfection",
+        "positive_minus_negative_log_probability": 1.8780276464651635
+      }
+    ],
+    "negative": [
+      {
+        "term": "worst movie",
+        "positive_minus_negative_log_probability": -3.0550244610563464
+      },
+      {
+        "term": "one worst",
+        "positive_minus_negative_log_probability": -2.955910545436833
+      },
+      {
+        "term": "waste time",
+        "positive_minus_negative_log_probability": -2.8453234262251517
+      },
+      {
+        "term": "worst film",
+        "positive_minus_negative_log_probability": -2.758439503437515
+      },
+      {
+        "term": "awful movie",
+        "positive_minus_negative_log_probability": -2.733964756659436
+      },
+      {
+        "term": "time money",
+        "positive_minus_negative_log_probability": -2.7058303282965035
+      },
+      {
+        "term": "not waste",
+        "positive_minus_negative_log_probability": -2.6074642302989304
+      },
+      {
+        "term": "stinker",
+        "positive_minus_negative_log_probability": -2.5999255748920724
+      },
+      {
+        "term": "waste",
+        "positive_minus_negative_log_probability": -2.5698853236023496
+      },
+      {
+        "term": "terrible movie",
+        "positive_minus_negative_log_probability": -2.543243022632078
+      },
+      {
+        "term": "piece crap",
+        "positive_minus_negative_log_probability": -2.458635409050922
+      },
+      {
+        "term": "movie terrible",
+        "positive_minus_negative_log_probability": -2.3993151420733074
+      },
+      {
+        "term": "horrible movie",
+        "positive_minus_negative_log_probability": -2.3961260506619695
+      },
+      {
+        "term": "worst",
+        "positive_minus_negative_log_probability": -2.343381311830904
+      },
+      {
+        "term": "complete waste",
+        "positive_minus_negative_log_probability": -2.334817164513032
+      },
+      {
+        "term": "unfunny",
+        "positive_minus_negative_log_probability": -2.3324496974826623
+      },
+      {
+        "term": "acting terrible",
+        "positive_minus_negative_log_probability": -2.3202885408224567
+      },
+      {
+        "term": "waste money",
+        "positive_minus_negative_log_probability": -2.296168803901802
+      },
+      {
+        "term": "laughable",
+        "positive_minus_negative_log_probability": -2.273358108857673
+      },
+      {
+        "term": "bad bad",
+        "positive_minus_negative_log_probability": -2.2711178916179158
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "experiment": "full_corpus",
+  "train_rows": 39659,
+  "test_rows": 9915,
+  "accuracy": 0.8822995461422087,
+  "assignment_baseline": 0.5,
+  "confusion_matrix": [
+    [
+      4332,
+      607
+    ],
+    [
+      560,
+      4416
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.8855273916598528,
+      "recall": 0.8771006276574206,
+      "f1-score": 0.8812938663411657,
+      "support": 4939.0
+    },
+    "positive": {
+      "precision": 0.879155882938483,
+      "recall": 0.887459807073955,
+      "f1-score": 0.8832883288328833,
+      "support": 4976.0
+    },
+    "accuracy": 0.8822995461422087,
+    "macro avg": {
+      "precision": 0.8823416372991679,
+      "recall": 0.8822802173656878,
+      "f1-score": 0.8822910975870245,
+      "support": 9915.0
+    },
+    "weighted avg": {
+      "precision": 0.882329748957126,
+      "recall": 0.8822995461422087,
+      "f1-score": 0.8822948189744272,
+      "support": 9915.0
+    }
+  },
+  "top_terms": {
+    "positive": [
+      {
+        "term": "cast excellent",
+        "positive_minus_negative_log_probability": 2.663762587777308
+      },
+      {
+        "term": "highly recommended",
+        "positive_minus_negative_log_probability": 2.6380247762554774
+      },
+      {
+        "term": "goldsworthy",
+        "positive_minus_negative_log_probability": 2.4551271343056857
+      },
+      {
+        "term": "felix",
+        "positive_minus_negative_log_probability": 2.3933157286120803
+      },
+      {
+        "term": "ponyo",
+        "positive_minus_negative_log_probability": 2.3722406661372766
+      },
+      {
+        "term": "acting superb",
+        "positive_minus_negative_log_probability": 2.3682980365027007
+      },
+      {
+        "term": "wonderful film",
+        "positive_minus_negative_log_probability": 2.332966839767723
+      },
+      {
+        "term": "excellently",
+        "positive_minus_negative_log_probability": 2.3318823945960556
+      },
+      {
+        "term": "well worth",
+        "positive_minus_negative_log_probability": 2.324244813531278
+      },
+      {
+        "term": "definitely worth",
+        "positive_minus_negative_log_probability": 2.315863372259356
+      },
+      {
+        "term": "amazing job",
+        "positive_minus_negative_log_probability": 2.307742830316645
+      },
+      {
+        "term": "matthau",
+        "positive_minus_negative_log_probability": 2.293930211719527
+      },
+      {
+        "term": "highly recommend",
+        "positive_minus_negative_log_probability": 2.2850115194952636
+      },
+      {
+        "term": "perfectly cast",
+        "positive_minus_negative_log_probability": 2.279710895435244
+      },
+      {
+        "term": "also excellent",
+        "positive_minus_negative_log_probability": 2.260400657192081
+      },
+      {
+        "term": "prot",
+        "positive_minus_negative_log_probability": 2.2404646046396532
+      },
+      {
+        "term": "eisenstein",
+        "positive_minus_negative_log_probability": 2.2354848527995586
+      },
+      {
+        "term": "fantastic performance",
+        "positive_minus_negative_log_probability": 2.222043185801752
+      },
+      {
+        "term": "must see",
+        "positive_minus_negative_log_probability": 2.195738220516528
+      },
+      {
+        "term": "best documentary",
+        "positive_minus_negative_log_probability": 2.177324144651344
+      }
+    ],
+    "negative": [
+      {
+        "term": "worst movie",
+        "positive_minus_negative_log_probability": -3.599962332015659
+      },
+      {
+        "term": "worst film",
+        "positive_minus_negative_log_probability": -3.4912700538884582
+      },
+      {
+        "term": "one worst",
+        "positive_minus_negative_log_probability": -3.260273990357245
+      },
+      {
+        "term": "avoid cost",
+        "positive_minus_negative_log_probability": -3.1948486552793263
+      },
+      {
+        "term": "horrible acting",
+        "positive_minus_negative_log_probability": -3.063210206658736
+      },
+      {
+        "term": "acting horrible",
+        "positive_minus_negative_log_probability": -3.036327732088102
+      },
+      {
+        "term": "complete waste",
+        "positive_minus_negative_log_probability": -3.028792914189536
+      },
+      {
+        "term": "awful movie",
+        "positive_minus_negative_log_probability": -3.016292545739377
+      },
+      {
+        "term": "terrible movie",
+        "positive_minus_negative_log_probability": -3.001933991045311
+      },
+      {
+        "term": "total waste",
+        "positive_minus_negative_log_probability": -2.9795400561839855
+      },
+      {
+        "term": "movie terrible",
+        "positive_minus_negative_log_probability": -2.9619616608900117
+      },
+      {
+        "term": "movie awful",
+        "positive_minus_negative_log_probability": -2.9507434138230018
+      },
+      {
+        "term": "waste time",
+        "positive_minus_negative_log_probability": -2.9424883017851196
+      },
+      {
+        "term": "possibly worst",
+        "positive_minus_negative_log_probability": -2.9134494773540833
+      },
+      {
+        "term": "waste money",
+        "positive_minus_negative_log_probability": -2.8854325390066666
+      },
+      {
+        "term": "acting terrible",
+        "positive_minus_negative_log_probability": -2.8810695360827427
+      },
+      {
+        "term": "uwe",
+        "positive_minus_negative_log_probability": -2.8315884919685885
+      },
+      {
+        "term": "stinker",
+        "positive_minus_negative_log_probability": -2.8176803904003584
+      },
+      {
+        "term": "avoid like",
+        "positive_minus_negative_log_probability": -2.8014939465505453
+      },
+      {
+        "term": "acting awful",
+        "positive_minus_negative_log_probability": -2.786659900601318
+      }
+    ]
+  }
+}

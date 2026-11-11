@@ -1,0 +1,180 @@
+PART 1: CORPUS STATISTICS
+Rows: 50000
+Label counts:
+ sentiment
+positive    25000
+negative    25000
+Label percentages:
+ sentiment
+positive    50.0
+negative    50.0
+Majority-class baseline: 0.5
+Word count: mean=231.16, median=173.00, mode band=[100.0, 150.0), variance=29358.77, std=171.34, skew=2.1683
+The right tail pulls up the mean; the median better describes typical review length.
+Mean word counts by sentiment:
+ sentiment
+negative    229.46456
+positive    232.84932
+Difference (positive minus negative): 3.38476
+The roughly three-word difference is small relative to the 171-word overall standard deviation; length alone is a weak practical separator. This is not a significance test.
+Duplicate rows: 418
+
+Raw: A wonderful little production. <br /><br />The filming technique is very unassuming- very old-time-BBC fashion and gives a comforting, and sometimes discomforting, sense of realism to the entire piece. <br /><br />The actors are extremely well chosen- Michael Sheen not only "has got all the polari" but he has all the voices down pat too! You can truly see the seamless editing guided by the references to Williams' diary entries, not only is it well worth the watching but it is a terrificly written and performed piece. A masterful production about one of the great master's of comedy and his life. <br /><br />The realism really comes home with the little things: the fantasy of the guard which, rather than use the traditional 'dream' techniques remains solid then disappears. It plays on our knowledge and our senses, particularly with the scenes concerning Orton and Halliwell and the sets (particularly of their flat with Halliwell's murals decorating every surface) are terribly well done.
+
+HTML stripped: A wonderful little production.   The filming technique is very unassuming- very old-time-BBC fashion and gives a comforting, and sometimes discomforting, sense of realism to the entire piece.   The actors are extremely well chosen- Michael Sheen not only "has got all the polari" but he has all the voices down pat too! You can truly see the seamless editing guided by the references to Williams' diary entries, not only is it well worth the watching but it is a terrificly written and performed piece. A masterful production about one of the great master's of comedy and his life.   The realism really comes home with the little things: the fantasy of the guard which, rather than use the traditional 'dream' techniques remains solid then disappears. It plays on our knowledge and our senses, particularly with the scenes concerning Orton and Halliwell and the sets (particularly of their flat with Halliwell's murals decorating every surface) are terribly well done.
+
+Tokenized (lowercased, contractions expanded): ['a', 'wonderful', 'little', 'production', '.', 'the', 'filming', 'technique', 'is', 'very', 'unassuming-', 'very', 'old-time-bbc', 'fashion', 'and', 'gives', 'a', 'comforting', ',', 'and', 'sometimes', 'discomforting', ',', 'sense', 'of', 'realism', 'to', 'the', 'entire', 'piece', '.', 'the', 'actors', 'are', 'extremely', 'well', 'chosen-', 'michael', 'sheen', 'not', 'only', '``', 'has', 'got', 'all', 'the', 'polari', "''", 'but', 'he', 'has', 'all', 'the', 'voices', 'down', 'pat', 'too', '!', 'you', 'can', 'truly', 'see', 'the', 'seamless', 'editing', 'guided', 'by', 'the', 'references', 'to', 'williams', "'", 'diary', 'entries', ',', 'not', 'only', 'is', 'it', 'well', 'worth', 'the', 'watching', 'but', 'it', 'is', 'a', 'terrificly', 'written', 'and', 'performed', 'piece', '.', 'a', 'masterful', 'production', 'about', 'one', 'of', 'the', 'great', 'master', "'s", 'of', 'comedy', 'and', 'his', 'life', '.', 'the', 'realism', 'really', 'comes', 'home', 'with', 'the', 'little', 'things', ':', 'the', 'fantasy', 'of', 'the', 'guard', 'which', ',', 'rather', 'than', 'use', 'the', 'traditional', "'", 'dream', "'", 'techniques', 'remains', 'solid', 'then', 'disappears', '.', 'it', 'plays', 'on', 'our', 'knowledge', 'and', 'our', 'senses', ',', 'particularly', 'with', 'the', 'scenes', 'concerning', 'orton', 'and', 'halliwell', 'and', 'the', 'sets', '(', 'particularly', 'of', 'their', 'flat', 'with', 'halliwell', "'s", 'murals', 'decorating', 'every', 'surface', ')', 'are', 'terribly', 'well', 'done', '.']
+
+Stop words removed; alphabetic only: ['wonderful', 'little', 'production', 'filming', 'technique', 'fashion', 'gives', 'comforting', 'sometimes', 'discomforting', 'sense', 'realism', 'entire', 'piece', 'actors', 'extremely', 'well', 'michael', 'sheen', 'not', 'got', 'polari', 'voices', 'pat', 'truly', 'see', 'seamless', 'editing', 'guided', 'references', 'williams', 'diary', 'entries', 'not', 'well', 'worth', 'watching', 'terrificly', 'written', 'performed', 'piece', 'masterful', 'production', 'one', 'great', 'master', 'comedy', 'life', 'realism', 'really', 'comes', 'home', 'little', 'things', 'fantasy', 'guard', 'rather', 'use', 'traditional', 'dream', 'techniques', 'remains', 'solid', 'disappears', 'plays', 'knowledge', 'senses', 'particularly', 'scenes', 'concerning', 'orton', 'halliwell', 'sets', 'particularly', 'flat', 'halliwell', 'murals', 'decorating', 'every', 'surface', 'terribly', 'well', 'done']
+
+Stemmed: ['wonder', 'littl', 'product', 'film', 'techniqu', 'fashion', 'give', 'comfort', 'sometim', 'discomfort', 'sens', 'realism', 'entir', 'piec', 'actor', 'extrem', 'well', 'michael', 'sheen', 'not', 'got', 'polari', 'voic', 'pat', 'truli', 'see', 'seamless', 'edit', 'guid', 'refer', 'william', 'diari', 'entri', 'not', 'well', 'worth', 'watch', 'terrificli', 'written', 'perform', 'piec', 'master', 'product', 'one', 'great', 'master', 'comedi', 'life', 'realism', 'realli', 'come', 'home', 'littl', 'thing', 'fantasi', 'guard', 'rather', 'use', 'tradit', 'dream', 'techniqu', 'remain', 'solid', 'disappear', 'play', 'knowledg', 'sens', 'particularli', 'scene', 'concern', 'orton', 'halliwel', 'set', 'particularli', 'flat', 'halliwel', 'mural', 'decor', 'everi', 'surfac', 'terribl', 'well', 'done']
+
+Lemmatized: ['wonderful', 'little', 'production', 'filming', 'technique', 'fashion', 'give', 'comforting', 'sometimes', 'discomforting', 'sense', 'realism', 'entire', 'piece', 'actor', 'extremely', 'well', 'michael', 'sheen', 'not', 'got', 'polari', 'voice', 'pat', 'truly', 'see', 'seamless', 'editing', 'guided', 'reference', 'williams', 'diary', 'entry', 'not', 'well', 'worth', 'watching', 'terrificly', 'written', 'performed', 'piece', 'masterful', 'production', 'one', 'great', 'master', 'comedy', 'life', 'realism', 'really', 'come', 'home', 'little', 'thing', 'fantasy', 'guard', 'rather', 'use', 'traditional', 'dream', 'technique', 'remains', 'solid', 'disappears', 'play', 'knowledge', 'sens', 'particularly', 'scene', 'concerning', 'orton', 'halliwell', 'set', 'particularly', 'flat', 'halliwell', 'mural', 'decorating', 'every', 'surface', 'terribly', 'well', 'done']
+Lemmatization retains dictionary forms, making features easier to interpret than truncated stems. The final pipeline uses WordNet noun lemmatization consistently, although it does not resolve every verb form without POS tags.
+1,000 reviews, median of three warmed runs (seconds): {'reused_resources': 3.2550429003313184, 'repeated_setup': 8.400719299912453}
+Repeated minus reused seconds: 5.145676399581134
+Timing depends on hardware and cached resources.
+Reviews cleaned to an empty string: 0
+Conflicting cleaned texts excluded: 0
+Repeated cleaned texts removed: 426
+Usable unique reviews: 49574
+
+EXPERIMENT: sample_20000 train: 16000 test: 4000
+Accuracy: 0.88275 | assignment baseline: 0.500 | improvement: 0.38275000000000003
+Training-majority baseline on test: 0.50175
+              precision    recall  f1-score   support
+
+    negative     0.8818    0.8831    0.8824      1993
+    positive     0.8837    0.8824    0.8831      2007
+
+    accuracy                         0.8828      4000
+   macro avg     0.8827    0.8828    0.8827      4000
+weighted avg     0.8828    0.8828    0.8828      4000
+
+Confusion matrix: rows=true, columns=predicted; negative, positive
+ [[1760  233]
+ [ 236 1771]]
+
+20 most positive terms:
+                   term  positive_minus_negative_log_probability
+     highly recommended                                 2.218703
+             underrated                                 2.217497
+       highly recommend                                 2.186460
+                  felix                                 2.149143
+          heartbreaking                                 2.141164
+outstanding performance                                 2.135485
+             well worth                                 2.108749
+  excellent performance                                 2.100858
+             also great                                 2.028028
+               must see                                 2.004343
+             refreshing                                 2.003129
+         cast excellent                                 1.997139
+               flawless                                 1.936998
+         wonderful film                                 1.931831
+             eisenstein                                 1.931496
+               miyazaki                                 1.910993
+                   fido                                 1.910484
+                matthau                                 1.902167
+       definitely worth                                 1.884153
+             perfection                                 1.878028
+Bigrams in top 20: 10
+Three strongest positive bigrams: ['highly recommended', 'highly recommend', 'outstanding performance']
+
+20 most negative terms:
+           term  positive_minus_negative_log_probability
+    worst movie                                -3.055024
+      one worst                                -2.955911
+     waste time                                -2.845323
+     worst film                                -2.758440
+    awful movie                                -2.733965
+     time money                                -2.705830
+      not waste                                -2.607464
+        stinker                                -2.599926
+          waste                                -2.569885
+ terrible movie                                -2.543243
+     piece crap                                -2.458635
+ movie terrible                                -2.399315
+ horrible movie                                -2.396126
+          worst                                -2.343381
+ complete waste                                -2.334817
+        unfunny                                -2.332450
+acting terrible                                -2.320289
+    waste money                                -2.296169
+      laughable                                -2.273358
+        bad bad                                -2.271118
+Bigrams in top 20: 15
+Three strongest negative bigrams: ['worst movie', 'one worst', 'waste time']
+
+EXPERIMENT: full_corpus train: 39659 test: 9915
+Accuracy: 0.8822995461422087 | assignment baseline: 0.500 | improvement: 0.38229954614220873
+Training-majority baseline on test: 0.5018658598083712
+              precision    recall  f1-score   support
+
+    negative     0.8855    0.8771    0.8813      4939
+    positive     0.8792    0.8875    0.8833      4976
+
+    accuracy                         0.8823      9915
+   macro avg     0.8823    0.8823    0.8823      9915
+weighted avg     0.8823    0.8823    0.8823      9915
+
+Confusion matrix: rows=true, columns=predicted; negative, positive
+ [[4332  607]
+ [ 560 4416]]
+
+20 most positive terms:
+                 term  positive_minus_negative_log_probability
+       cast excellent                                 2.663763
+   highly recommended                                 2.638025
+          goldsworthy                                 2.455127
+                felix                                 2.393316
+                ponyo                                 2.372241
+        acting superb                                 2.368298
+       wonderful film                                 2.332967
+          excellently                                 2.331882
+           well worth                                 2.324245
+     definitely worth                                 2.315863
+          amazing job                                 2.307743
+              matthau                                 2.293930
+     highly recommend                                 2.285012
+       perfectly cast                                 2.279711
+       also excellent                                 2.260401
+                 prot                                 2.240465
+           eisenstein                                 2.235485
+fantastic performance                                 2.222043
+             must see                                 2.195738
+     best documentary                                 2.177324
+Bigrams in top 20: 13
+Three strongest positive bigrams: ['cast excellent', 'highly recommended', 'acting superb']
+
+20 most negative terms:
+           term  positive_minus_negative_log_probability
+    worst movie                                -3.599962
+     worst film                                -3.491270
+      one worst                                -3.260274
+     avoid cost                                -3.194849
+horrible acting                                -3.063210
+acting horrible                                -3.036328
+ complete waste                                -3.028793
+    awful movie                                -3.016293
+ terrible movie                                -3.001934
+    total waste                                -2.979540
+ movie terrible                                -2.961962
+    movie awful                                -2.950743
+     waste time                                -2.942488
+ possibly worst                                -2.913449
+    waste money                                -2.885433
+acting terrible                                -2.881070
+            uwe                                -2.831588
+        stinker                                -2.817680
+     avoid like                                -2.801494
+   acting awful                                -2.786660
+Bigrams in top 20: 18
+Three strongest negative bigrams: ['worst movie', 'worst film', 'one worst']
+
+Negation examples (illustrations, not an additional evaluation set):
+This movie is good. => movie good => positive
+This movie is not good. => movie not good => negative
+I never enjoyed this film. => never enjoyed film => positive
+I cannot recommend this movie. => not recommend movie => negative
+
+Limitations: Bag-of-words and bigrams can miss sarcasm and long-range negation. Performance on held-out IMDB reviews may not transfer to other domains, languages, or recent review styles.

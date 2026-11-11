@@ -21,3 +21,7 @@ __pycache__/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Regenerate the fitted model with the script
+models/*.joblib
+nltk_data/
